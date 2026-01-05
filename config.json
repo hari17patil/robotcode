@@ -1,0 +1,305 @@
+{
+  "common_desired_caps": {
+    "appActivity": "com.microsoft.skype.teams.Launcher",
+    "appPackage": "com.microsoft.skype.teams.ipphone",
+    "automationName": "UiAutomator2",
+    "platformName": "android",
+    "deviceName": "Android",
+    "newCommandTimeout": 90000,
+    "optionalIntentArguments": "--esn automation"
+  },
+  "companyPortal_Package": "com.microsoft.windowsintune.companyportal",
+  "appium_starting_port": 5100,
+  "cp_logs_capture": "False",
+  "dpi": {
+    "phyiscal_density": "-",
+    "override_density": "-"
+  },
+  "physical_size": "-",
+  "console_physical_size": "-",
+  "console_physical_density": "-",
+  "device_type": "-",
+  "encryption_state": "encrypted",
+  "devices": {
+    "device_1": {
+     "oem": "Texas",
+      "model": "houston",
+      "port": 5100,
+      "admin_username": "admin",
+      "admin_password": "1234",
+      "firmware": "1.0",
+      "teams_device_capabilities": "-",
+      "teams_apk_version": "-",
+      "camera": {
+          "default": "Built-in Camera",
+          "external_1": "UVC Camera (046d:0825)",
+          "external_2": "Logitech Webcam C930e"
+        },
+      "desired_caps": {
+        "alias": "app1",
+        "udid": "10.39.7.113:5555"
+      },
+      "user": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-",
+        "phonenumber": "-",
+        "pstndisplay": "-",
+        "extension": "-"
+      },
+      "meeting_user": {
+      "username": "Z4_ProAuto@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Z4_ProAuto",
+        "phonenumber": "13173424945",
+        "pstndisplay": "+1 317-342-4945",
+        "extension": "3424945"
+      },
+      "pstn_user": {
+       "username": "Pro_NAuto1@3pip.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Pro_NAuto1",
+        "phonenumber": "13238602962",
+        "pstndisplay": "+1 323-860-2962",
+        "extension": "8602962"
+      },
+      "pstn_disabled": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      },
+      "basic_user": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      },
+      "manufacture_block_user": {
+        "username": "-",
+        "password": "-"
+      },
+      "complex_pwd_user": {
+        "username": "-",
+        "password": "-"
+      },
+      "intune_license_user": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      },
+      "feedback_user": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      }
+    },
+     "device_2": {
+        "oem": "Washington",
+        "model": "Spokane",
+        "port": 5200,
+        "admin_username": "admin",
+        "admin_password": "1234",
+        "firmware": "1.11.266",
+        "desired_caps": {
+          "alias": "app1",
+          "udid": "10.39.7.212:5555"
+      },
+      "user": {
+        "username": "Z5_ProAuto@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Z5_ProAuto",
+        "phonenumber": "13173497277",
+        "pstndisplay": "+1 317-349-7277",
+        "extension": "3497277"
+       },
+       "pstn_user": {
+         "username": "Pro_NAuto1@3pip.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Pro_NAuto1",
+        "phonenumber": "13238602962",
+        "pstndisplay": "+1 323-860-2962",
+        "extension": "8602962"
+        }
+    },
+    "device_3": {
+      "oem": "California",
+      "model": "Oakland",
+      "port": 5210,
+      "admin_username": "admin",
+      "admin_passwod": "1234",
+      "firmware": "1.0",
+      "desired_caps": {
+        "alias": "app1",
+        "udid": "10.39.4.180:5555"
+      },
+      "user": {
+        "username": "Z6_ProAuto@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Z6_ProAuto",
+        "phonenumber": "13173600844",
+        "pstndisplay": "+1 317-360-0844",
+        "extension": "3600844"
+       },
+       "pstn_user": {
+              "username": "Pro_Auto10@dpec02.onmicrosoft.com",
+              "pass": "Apexo@24",
+              "displayname": "Pro_Auto10",
+              "phonenumber": "+1 405-456-0167",
+              "pstndisplay": "+1 405-456-0167",
+              "extension": "4560167"
+        }
+    }
+},
+  "consoles": {
+    "console_1": {
+    "oem": "Texas",
+      "model": "dallas",
+      "port": 5110,
+      "admin_username": "admin",
+      "admin_pass": "1234",
+      "serial_number": "8L212458E8DBFC",
+      "firmware": "1.0",
+      "teams_device_capabilities": "-",
+      "teams_apk_version": "-",
+      "camera": {
+			  "default": "Built-in Camera",
+			  "external_1": "UVC Camera (046d:0825)",
+			  "external_2": "Logitech Webcam C930e"
+			},
+      "desired_caps": {
+        "alias": "app1",
+        "udid": "10.39.5.32:5555"
+
+      },
+      "user": {
+         "username": "Z5_ProAuto@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Z5_ProAuto",
+        "phonenumber": "13173497277",
+        "pstndisplay": "+1 317-349-7277",
+        "extension": "3497277"
+      },
+      "meeting_user": {
+       "username": "Z4_ProAuto@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Z4_ProAuto",
+        "phonenumber": "13173424945",
+        "pstndisplay": "+1 317-342-4945",
+        "extension": "3424945"
+      },
+      "pstn_user": {
+       "username": "Pro_NAuto1@3pip.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Pro_NAuto1",
+        "phonenumber": "13238602962",
+        "pstndisplay": "+1 323-860-2962",
+        "extension": "8602962"
+      },
+      "pstn_disabled": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      },
+      "basic_user": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      },
+      "manufacture_block_user": {
+        "username": "-",
+        "password": "-"
+      },
+      "complex_pwd_user": {
+        "username": "-",
+        "password": "-"
+      },
+      "intune_license_user": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      },
+      "feedback_user": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-"
+      }
+    }
+    },
+  "browsers": {
+    "tdc_1": {
+      "chrome_options": "--incognito",
+      "user": {
+        "username": "Z5_ProAuto@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Z5_ProAuto",
+        "phonenumber": "13173497277",
+        "pstndisplay": "+1 317-349-7277",
+        "extension": "3497277"
+      },
+      "meeting_user": {
+         "username": "Z4_ProAuto@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Z4_ProAuto",
+        "phonenumber": "13173424945",
+        "pstndisplay": "+1 317-342-4945",
+        "extension": "3424945"
+      },
+      "user_1": {
+        "username": "-",
+        "password": "-",
+        "displayname": "-",
+        "phonenumber": "-",
+        "pstndisplay": "-",
+        "extension": "-"
+      },
+      "pstn_user": {
+        "username": "Pro_NAuto1@3pip.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "Pro_NAuto1",
+        "phonenumber": "13238602962",
+        "pstndisplay": "+1 323-860-2962",
+        "extension": "8602962"
+      },
+      "non_pro_user": {
+       "username": "sw_auto4@tdr0.onmicrosoft.com",
+        "password": "Apexo@24",
+        "displayname": "sw_auto4",
+        "phonenumber": "12135921142",
+        "pstndisplay": "+1 213-592-1142",
+        "extension": "5921142"
+		},
+      "zoom_user": {
+        "username": "v-shiary@microsoft.com",
+        "password": "P@ssword1",
+        "displayname": "Shiwani Arya"
+      }
+      }
+  },
+  "Report_feedback": {
+    "title": "-",
+    "bug_details": "-"
+  },
+  "user": {
+    "invalid_username": "-",
+    "invalid_domain": "-",
+    "invalid_password": "-"
+  },
+  "incorrect_number": {
+    "phonenumber": "11234567890"
+  },
+  "meeting_details": {
+    "meeting_id": "-",
+    "meeting_passcode": "-",
+    "invalid_meeting_id": "-",
+    "invalid_passcode": "-"
+  },
+  "extend_meeting_details": {
+    "meeting_id": "-",
+    "meeting_passcode": "-"
+  },
+  "zoom_meeting_details": {
+    "meeting_id": "-",
+    "meeting_passcode": "-",
+    "invalid_meeting_id": "-",
+    "invalid_passcode": "-"
+  }
+}

@@ -1,0 +1,298 @@
+v-naveenka_debug@prdtrs01.prod.outlook.com 
+
+Info_g -> J0!n$N3@p*22   2627J014
+   
+neat board : adb shell nf_systemctl usb-hub-host internal
+
+X50_U3_2022072801_logcat_repro_01_08_2022.txt
+
+for screen capture : adb exec-out screencap -p > screen.png 
+
+[13:25] Dagrun Royrvik (droyrvik) (Guest)
+adb keygen C:\Users\v-naveenka\.android\adbkey
+
+os version cmd:
+adb shell getprop ro.build.version.release
+
+
+for video : adb shell screenrecord /sdcard/video.mp4 
+
+adb pull /sdcard/video.mp4
+
+Android version : 
+adb shell getprop ro.build.version.release
+
+Firmware version: adb shell getprop build.firmware.version
+
+Xl meeting : .\botgen.exe --meetingUrl <meeting url> --videoBotCount <bot count>
+
+neat touch command :  adb shell nf_systemctl usb-hub-host internal
+
+to check encryption state: adb shell getprop ro.crypto.state]
+
+Device capabilities : adb shell settings get secure teams_device_capabilities
+
+
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDEwZDhjYWYtZjI4OC00ZDQyLWJiMDYtYTI4MDcwZTE0NjQx%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%22c87d0ec4-d427-4e74-abb6-ebe1bce4fb0b%22%7d
+
+to know encryption :
+adb shell getprop ro.crypto.state
+
+CQ number and acc
+
+206 413 7897
+
+CQ - +1  435-359-1556  working
+
+Parker r Pauladams r Teamsdevice4 r teamsdevice6
+
+
+
+Orgaa- ‪12066918576 pauladams or parker or teamsdevice4 or teamsdevice 6, 16, 18
+************************************************************************************************************************************************************************
+Clear Cache
+
+adb shell pm clear com.microsoft.teams.ipphone.admin.agent 
+
+adb shell pm clear com.microsoft.windowsintune.companyportal
+    
+
+*************************************************************************************************************************************************************************
+Configuration update: https://admin.teams.microsoft.com/
+
+app and FW update: http://admin-int.teams.microsoft.net/
+
+
+Teamsdeviceadministrator@3pip.onmicrosoft.com	Ipphones@01
+Teamsdeviceadministrator@tdr0.onmicrosoft.com	Apex0n@01
+Teamsdeviceadministrator@testtestsohailta.onmicrosoft.com	Apex0n@01
+Teamsdeviceadministrator@nextgenipphone.onmicrosoft.com	Apex0n@01
+teamsdeviceadministrator@androiddpec.onmicrosoft.com	Apex0n@01
+teamsdeviceadministrator@td15.onmicrosoft.com	Apex0n@01
+ 
+
+
+
+
+*************************************************************************************************************************************************************************
+to check os version :
+
+adb shell getprop ro.build.version.release
+************************************************************************************************************************************************************************
+
+CP logs: 
+When any sign in issue occure take CP logs
+ce1
+adb shell am broadcast -a com.microsoft.windowsintune.companyportal.intent.action.
+IPPHONE_UPLOAD_LOGS --es SessionID "3a3a5de7-91a8-4a74-bdfe-0a0b5c3d98d1" -n com.microsoft.windowsintune.co
+mpanyportal/.omadm.IPPhoneReceiver
+bugreport_logitech panel_3.2.0 app_CP_WPJ
+[
+GUID: https://www.guidgenerator.com/online-guid-generator.aspx
+
+	Free Online GUID Generator
+ 18602679999 
+Free Online GUID/UUID Generator
+***********************************************************************************************************************************************************************
+call related issues take Slim core logs :
+  adb.exe pull /sdcard/Android/data/com.microsoft.skype.teams.ipphone/cache
+
+***********************************************************************************************************************************************************************
+slim core logs
+adb.exe pull /sdcard/Android/data/com.microsoft.skype.teams.ipphone/cache
+***********************************************************************************************************************************************************************
+
+adb pull storage/emulated/0/Android/data/com.microsoft.teams.ipphone.admin.agent/files/ConfigDirectory/Config.json
+adb push Config.json /storage/emulated/0/Android/data/com.microsoft.teams.ipphone.admin.agent/files/ConfigDirectory/Config.json
+***********************************************************************************************************************************************************************
+
+to know version code:
+
+adb shell dumpsys package com.microsoft.teams.ipphone.admin.agent | findstr versionCode
+
+to check 1080 :
+
+adb shell wm size
+
+to check dpi density :
+
+adb shell wm density
+
+to check firmwareversion :
+
+adb shell getprop build.firmware.version
+
+**********************************************************************************************************************************************************************
+
+to take screenshot:
+
+adb shell screencap/sdcard/image.png
+
+to take screenrecord:
+
+adb shell screenrecord/sdcard/video.mp4
+
+************************************************************************************************************************************************************************
+Dm commands:
+adb pull storage/emulated/0/Android/data/com.microsoft.teams.ipphone.admin.agent/files/ConfigDirectory/Config.json
+adb push Config.json /storage/emulated/0/Android/data/com.microsoft.teams.ipphone.admin.agent/files/ConfigDirectory/Config.json
+
+PPE link : https://admin-int.teams.microsoft.net - Develop
+https://admin-dev.teams.microsoft.net/devices/ipphones
+
+Prod link : 
+ - 
+
+teamsdeviceadministrator@3PIP.onmicrosoft.com - only for ppe
+P@ssword1/MTRA$2022
+
+teamsdeviceadministrator@SBSPartnerEngTest.onmicrosoft.com
+P@ssword1
+
+Panel:Admin URL : for Normal ZTP/CP: https://admin.teams.microsoft.com
+
+admin2@tdr2.onmicrosoft.com
+MSFTR0cks!@#
+
+DOD : https://eng.ms/docs/experiences-devices/m365-core/o365-enterprise-cloud/m365-gov-and-spl-clouds-services/office-365-us-government-programs/m365-us-government-devcenter/validation-tenants/managed-dod
+
+**************************************************************************************************************************
+
+
+mfaenabled account -mfaenabled@3pip.onmicroosft.com
+S@kurai$2021
+
+GCC - test_user1@tdgcc.onmicrosoft.com
+P@ssword1
+
+GCCH - https://admin.gov.teams.microsoft.us/
+v-mavr@quovadimus.ms	Mani$123
+
+v-mohaku@quovadimus.ms j}r!6_!~#6h5ZD4
+
+v-mmanoharan@quovadimus.ms  x=a8J[s[EjWB75x
+
+portal link : https://admin.gov.teams.microsoft.us/devices/ipphones
+
+mfa enabled account :
+mfaenabled@3pip.onmicroosft.com
+
+bundled : 2021721103
+
+Survivablitity :
+
+e2e.test02@adatum.biz -
+e2e.testsba01@adatum.biz - ‪+1 236 317 6172
+e2e.testsba02@adatum.biz - ‪+1 236 317 6173
+Password: 666Diablos!
+
+e2e.testsba03@adatum.biz tel:+18553190190
+e2e.testsba04@adatum.biz tel:+18553192231
+e2e.testsba05@adatum.biz tel:+18553192232
+e2e.testsba06@adatum.biz tel:+18553192236
+e2e.testsba07@adatum.biz tel:+18553192237
+
+teamsipphone1@sbspartnerengtest.onmicrosoft.com
+
+
+https://domoreexp.visualstudio.com/MSTeams/_workitems/recentlyupdated/ --> internal node link
+
+
+https://skypeforbusinesspartnerengineering.visualstudio.com/ -->partner node link
+
+survivability :
+
+ 
+1. Test device IP to SBA[40.69.60.111]
+2. SBA to Test device IP
+3. Test device IP to SBC /51.104.164.181
+4. SBC to test device IP
+5. Test device IP to DNS server [8.8.8.8]
+6. DNS server to test device IP
+7. Switch IP to DNS server
+8. DNS server to Switch IP
+9. Test device IP to Laptop IP
+10. Laptop IP to Test device IP
+
+
+Audiocodes firware updation :
+
+Login into CMD Portal
+ (a) adb connect IP
+Copy the Latest  Firmware from MS Share to the Local Folder ( ZIP Folder)
+(b) adb push C:\Software\Audiocode\XX.zip /sdcard/update_image.zip
+( c) adb shell setprop ctl.start local_update
+
+adb disabled build :
+1.scp C:\Users\v-chits\Downloads\C470HD_TEAMS_1.14.410_ADB.zip admin@10.41.0.107:/sdcard/update_image.zip
+
+The authenticity of host '192.168.0.107 (192.168.0.107)' can't be established.
+
+2. ECDSA key fingerprint is SHA256:IaQGePqdz+XSynQ54KzQF8jNMS+Jv1M8QmBPfvE42aU.
+
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
+Please type 'yes', 'no' or the fingerprint: Yes
+
+Warning: Permanently added '192.168.0.107' (ECDSA) to the list of known hosts.
+
+admin@192.168.0.107's password: 1234
+
+After download 
+
+ssh admin@192.168.0.107 local_update.sh
+
+to check laptop serial number
+open cmd
+wmic productnumber
+
+
+adb keygen C:\Users\poweruser\.android\adbkey
+
+
+
+type C:\Users\poweruser\.android\adbkey.pub
+
+xCommand SystemUnit Extension Adb Enable Key:
+
+
+
+to check 1080 :
+
+
+
+adb shell wm size
+
+
+
+to check dpi density :
+
+
+
+adb shell wm density
+
+
+
+
+
+adb shell setprop persist.logitech.platform.security.app_whitelist_enable false
+
+ 
+
+adb uninstall io.appium.settings
+adb uninstall io.appium.uiautomator2.server
+adb uninstall io.appium.uiautomator2.server.test
+
+ 
+
+
+
+to check firmwareversion :
+
+
+
+adb shell getprop build.firmware.version
+
+ 
+
+shell getprop ro.serialno
